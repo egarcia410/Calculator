@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/87d4c9bf4a.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div id="viewer"></div>
+        <div id="results"></div>
+        <hr>
+        <div class="inputPad">
+            <div class="calcRow">
+                <button class="topRow">AC</button>
+                <button class="topRow"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                <button class="operator">÷</button>
+            </div>
+            <div class="calcRow">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">x</button>
+            </div>
+            <div class="calcRow">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">-</button>
+            </div>
+            <div class="calcRow">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="calcRow">
+                <button>00</button>
+                <button>0</button>
+                <button>.</button>
+                <button id="equals"><i class="fa fa-check" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
